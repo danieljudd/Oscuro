@@ -1,0 +1,33 @@
+{
+    "name": "Oscuro",
+    "displayName": "Oscuro",
+    "description": "Oscuro is a dark theme with mediterranean ocean colours for Visual Studio Code.",
+    "version": "0.0.2",
+	"publisher": "danieljudd",
+	"repository": "https://github.com/danieljudd/oscuro",
+	"homepage": "https://danieljudd.xyz",
+	"email": "daniel@danieljudd.xyz",
+	"icon": "images/icon.png",
+	
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+	  "keywords": [
+    "dark",
+    "night",
+    "accent",
+    "oscuro"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Oscuro",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Oscuro.json"
+            }
+        ]
+    }
+}
